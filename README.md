@@ -25,7 +25,7 @@ _Bachelorarbeit_
 
 
 ## Veröffentlichung
-Unter dieser Adresse soll der im Rahmen meiner Bachelorarbeit geschriebene Quelltext zur Handlungserkennung veröffentlicht werden.
+Nach Abschluss des Prüfungsverfahrens soll unter dieser Adresse der im Rahmen der Bachelorarbeit geschriebene Quelltext zur Handlungserkennung veröffentlicht werden.
 
 
 

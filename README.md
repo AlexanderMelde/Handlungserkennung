@@ -28,6 +28,31 @@ _Bachelorarbeit_
 Nach Abschluss des Prüfungsverfahrens soll unter dieser Adresse der im Rahmen der Bachelorarbeit geschriebene Quelltext zur Handlungserkennung veröffentlicht werden.
 
 
+## Schnellstart
+
+1) Python und Pip installieren
+    1) Python 3.6 [herunterladen](https://www.python.org/downloads/) und installieren (beinhaltet pip)
+2) Virtual Environment erstellen mit allen in der Datei ``requirements.txt`` genannten Modulen
+    1) Das Modul "Virtual Environment" installieren mit ``pip install virtualenv``
+    2) Neue virtuelle Umgebung im Projektordner erstellen mit ``virtualenv venv``
+    3) Virtuelle Umgebung betreten, indem im Ordner ``venv/Scripts/`` ausgeführt wird: 
+        1) Unix (Bash): ``.\activate``
+        2) Windows (PowerShell): ``PowerShell.exe -ExecutionPolicy UNRESTRICTED`` und ``.\Activate.ps1``
+    4) Module in virtuelle Umgebung installieren mit ``pip install -r requirements.txt``
+3) Die Bibliothek ```pafprocess``` kompilieren
+    1) Compiler SWIG installieren
+        1) Unix: ``sudo apt install swig``
+        2) Windows:
+            1) SWIG herunterladen und Installieren [Download](http://www.swig.org/download.html)
+            2) Visual C++ Build Tools von Microsoft installieren via [Direktlink](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=15) oder [Download-Website besuchen](https://visualstudio.microsoft.com/downloads), "Tools für Visual Studio 2017" auswählen und bei "Build Tools für Visual Studio 2017" auf "Herunterladen" drücken
+    1) Im Ordner ``tpe/tf_pose/pafprocess`` die Befehle ``swig -python -c++ pafprocess.i`` und ``python setup.py build_ext --inplace`` ausführen.
+4) Nach Handlungen sortierte Videos in Unterordner von ```training/input_videos``` legen, jeweils mindestens 20 Videos im .avi Format z.B. 30 Videos  im Ordner ``training/input_videos/boxing`` und 25 Videos im Ordner ``training/input_videos/walking``.
+5) Prototyp 2 testen mit verkettetem Ablauf ``python main.py --convertVideosToOneImage=True --retrain=True --train_with_vid_as_img=True --classify_webcam_asImgs=True`` oder einzeln:
+    1) Generierung von Überlagerungen starten mit ``python main.py --convertVideosToOneImage=True``
+    2) Das Training des zweiten Prototypen starten mit ``python main.py --retrain=True --train_with_vid_as_img=True``
+    3) Anwendung auf Webcam starten mit ``python main.py --classify_webcam_asImgs=True``
+6) Weitere Aufrufe siehe Bachelorarbeit und Hilfe via ``python main.py -h``
+
 
 ## Kontakt
 E-Mail: alexander@melde.net

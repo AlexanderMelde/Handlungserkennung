@@ -53,6 +53,8 @@ Nach Abschluss des Prüfungsverfahrens soll unter dieser Adresse der im Rahmen d
 Nach der Installation kann der zweite Prototyp in zwei Schritten mit einer Webcam getestet werden:
 
 1) Nach Handlungen sortierte Videos in Unterordner von ```training/input_videos``` legen, jeweils mindestens 20 Videos im .avi Format z.B. 30 Videos  im Ordner ``training/input_videos/boxing`` und 25 Videos im Ordner ``training/input_videos/walking``.
+    1) z.B. [Download des KTH-Datensatzes](http://www.nada.kth.se/cvap/actions/)
+    2) z.B. [Download des Weizmann-Datensatzes](http://www.wisdom.weizmann.ac.il/~vision/SpaceTimeActions.html)
 2) Prototyp 2 testen mit verkettetem Ablauf ``python main.py --convertVideosToOneImage=True --retrain=True --train_with_vid_as_img=True --classify_webcam_asImgs=True`` oder einzeln:
     1) Generierung von Überlagerungen starten mit ``python main.py --convertVideosToOneImage=True``
     2) Das Training des zweiten Prototypen starten mit ``python main.py --retrain=True --train_with_vid_as_img=True``

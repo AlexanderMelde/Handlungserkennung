@@ -49,8 +49,15 @@ Nach Abschluss des Prüfungsverfahrens soll unter dieser Adresse der im Rahmen d
 
 
 ## Schnellstart
+### Vortrainiertes Modell
+Im Ordner ``pretrained`` befinden sich drei vortrainierte Modelle, die zum Test der Prototypen genutzt werden können:
 
-Nach der Installation kann der zweite Prototyp in zwei Schritten mit einer Webcam getestet werden:
+1) Prototyp 1, KTH-Datensatz: ``python main.py --folder_classification_files="pretrained/classification_files_proto1_kth" --classify_webcam=True``
+2) Prototyp 2, KTH-Datensatz: ``python main.py --folder_classification_files="pretrained/classification_files_proto2_kth" --classify_webcam_asImgs=True``
+3) Prototyp 2, zusammengesetzter Datensatz: ``python main.py --folder_classification_files="pretrained/classification_files_proto2_big" --classify_webcam_asImgs=True``
+
+### Eigene Klassen & Trainingsdaten
+Nach der Installation kann der zweite Prototyp in zwei Schritten mit einer Webcam und eigenen Klassen und Trainingsdaten getestet werden:
 
 1) Nach Handlungen sortierte Videos in Unterordner von ```training/input_videos``` legen, jeweils mindestens 20 Videos im .avi Format z.B. 30 Videos  im Ordner ``training/input_videos/boxing`` und 25 Videos im Ordner ``training/input_videos/walking``.
     1) z.B. [Download des KTH-Datensatzes](http://www.nada.kth.se/cvap/actions/)

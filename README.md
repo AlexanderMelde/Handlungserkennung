@@ -28,6 +28,13 @@ _Bachelorarbeit_
 Nach Abschluss des Prüfungsverfahrens soll unter dieser Adresse der im Rahmen der Bachelorarbeit geschriebene Quelltext zur Handlungserkennung veröffentlicht werden.
 
 
+## Video zu den Experimenten (Demo)
+
+<p align="center">
+    <a href="https://youtu.be/RN8bqSqV0Ho" target="_blank"><img src="https://media.giphy.com/media/1iO5HiRKbDSjIcZiS8/giphy.gif", width="480"></a>
+</p>
+
+
 ## Installation
 
 1) Python und Pip installieren

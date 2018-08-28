@@ -79,4 +79,4 @@ Weitere Aufrufe siehe Bachelorarbeit und Hilfe via ``python main.py -h``
 
 
 ## Kontakt
-E-Mail: alexander@melde.net
+E-Mail: [alexander@melde.net](alexander@melde.net)

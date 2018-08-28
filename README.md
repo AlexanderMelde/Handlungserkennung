@@ -50,7 +50,7 @@ Nach Abschluss des Prüfungsverfahrens soll unter dieser Adresse der im Rahmen d
 
 ## Schnellstart
 ### Vortrainiertes Modell
-Im Ordner ``pretrained`` befinden sich drei vortrainierte Modelle, die zum Test der Prototypen genutzt werden können:
+Im Ordner ``pretrained`` befinden sich drei vortrainierte Modelle, die nach der Installation zum Test der Prototypen genutzt werden können:
 
 1) Prototyp 1, KTH-Datensatz: ``python main.py --folder_classification_files="pretrained/classification_files_proto1_kth" --classify_webcam=True``
 2) Prototyp 2, KTH-Datensatz: ``python main.py --folder_classification_files="pretrained/classification_files_proto2_kth" --classify_webcam_asImgs=True``

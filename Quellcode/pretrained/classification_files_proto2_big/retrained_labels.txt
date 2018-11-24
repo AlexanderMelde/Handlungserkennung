@@ -1,0 +1,14 @@
+1p boxing
+1p handclapping
+1p handwaving
+1p jogging
+1p jumping
+1p pointing
+1p running
+1p walking
+2p highfive
+2p hugging
+2p kicking
+2p punching
+2p pushing
+2p shakinghands

@@ -1,5 +1,3 @@
-> source code will be uploaded as soon as official verification procedures end.
-
 # Erkennung menschlicher Handlungen durch Auswertung der Körperhaltungen von Personen in einem Video mithilfe von Machine Learning und neuronalen Netzen
 _Bachelorarbeit_
 <table>
@@ -27,7 +25,14 @@ _Bachelorarbeit_
 
 
 ## Veröffentlichung
-Nach Abschluss des Prüfungsverfahrens soll unter dieser Adresse der im Rahmen der Bachelorarbeit geschriebene Quelltext zur Handlungserkennung veröffentlicht werden.
+Der im Rahmen der Bachelorarbeit geschriebene Quelltext wurde nach Abschluss des Prüfungsverfahrens unter der GNU v3 Lizenz in diesem GitHub Repository veröffentlicht.
+
+Zur Dokumentation des Codes wurde auch der schriftliche Teil der Bachelorarbeit hier hochgeladen.
+
+**Inhalt dieses Repository:**
+1) Quellcode zur Bachelorarbeit.
+2) Ordner "Beispiele", der Teile der während der Arbeit generierten Bilder enthält.
+3) Bachelorarbeit als PDF Datei
 
 
 ## Video zu den Experimenten (Demo)

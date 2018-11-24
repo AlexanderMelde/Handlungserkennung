@@ -1,0 +1,1 @@
+Dieser Ordner enthält vortrainierte Modelle, die direkt zum Testen der Prototypen verwendet werden könnnen.
